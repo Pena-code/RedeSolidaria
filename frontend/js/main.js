@@ -122,7 +122,7 @@ function getEntidades(){
 function populateDrop1(entidade){
 	const drop = document.getElementById("dropdownMenu");
   entidade.forEach((ent) => {
-    const row = `<a href="#">${ent.nome}</a>`;
+    const row = `<a href="entidade.html">${ent.nome}</a>`;
         
     drop.innerHTML += row;
   });

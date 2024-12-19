@@ -5,7 +5,7 @@ window.onload = function () {
     fetch(API_URL + 'prestadorsvc/' + local)
         .then((response) => response.json())
         .then((prestadorsvc) => {
-            sessionStorage.removeItem("prestadorSvcId");
+            sessionStorage.removeItem("prestadorId");
             populate(prestadorsvc);
         });
 };
