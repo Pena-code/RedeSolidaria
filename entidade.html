@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <html lang="en">
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/PStyle.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <title>Prestadores de Serviços - Rede Solidária</title>
+    </head>
+    <body>
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <header class="site-navbar" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-11 col-xl-2">
+              <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">Rede Solidaria</a></h1>
+            </div>
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li class="active"><a href="index.html"><span>Home</span></a></li>
+                  <li><a href="listings.html"><span>Listings</span></a></li>
+                  <li class="has-children">
+                    <a href="#"><span>Perfil</span></a>
+                      <ul class="dropdown arrow-top">
+                        <li><a href="perfilAss.html">Usuario</a></li>
+                        <li><a href="listaPDD.html">Pedidos</a></li>
+                        <li><a href="historico.html">Historico</a></li>
+                        <li><a href="ePedido.html">Fazer Pedido</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                      </ul>
+                  </li>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+            </div>
+            <div id="welcome">
+              <h1>WELCOME</h1>
+          </div>
+          <div classstyle="background-color: aqua;"></div>
+        </div>
+      </header>
+      <div class="hero" style="background-image: url('images/Social-Care.jpg'); border-bottom-right-radius: 100px;border-bottom-left-radius: 100px;"></div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/entidade.js"></script>
+    </body>
+  <body>
+    <link rel="stylesheet" href="css/EStyle.css">
+      <title>Histórico de Pedidos</title>
+  </head>
+  <body>
+      <div class="historico-container">
+          <div class="historico-header">
+              <h1>Histórico de Pedidos</h1>
+          </div>
+          <table class="historico-table">
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Descrição do Pedido</th>
+                      <th>Data</th>
+                      <th>Status</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>Solicitação de Equipamento de TI</td>
+                      <td>03/01/2024</td>
+                      <td><span class="status-aceito">Aceite</span></td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>Explicação Matemática 2ºciclo</td>
+                      <td>05/01/2024</td>
+                      <td><span class="status-aceito">Aceite</span></td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>Instalação de torneira</td>
+                      <td>06/01/2024</td>
+                      <td><span class="status-aceito">Aceite</span></td>
+                  </tr>
+              </tbody>
+          </table>
+          <div class="space-between"></div>
+          <div class="historico-header">
+            <h1>Lista de Pedidos</h1>
+        </div>
+          <table class="historico-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descrição do Pedido</th>
+                <th>Data</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Cortar a relva</td>
+                <td>03/01/2024</td>
+                <td><span class="status-pendente">Pendente</span></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Requisição de Ajuste no Sistema Informático</td>
+                <td>05/01/2024</td>
+                <td><span class="status-pendente">Pendente</span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cozinheiro - Jantar de Natal</td>
+                <td>22/12/2024</td>
+                <td><span class="status-pendente">Pendente</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <div class="pedido-container">
+      <div class="pedido-header">
+          <h1>Fazer Novo Pedido</h1>
+      </div>
+      <form id="pedidoForm">
+          <div class="form-group">
+              <label for="nomePedido">Nome do Pedido</label>
+              <input type="text" id="nomePedido" name="nomePedido" placeholder="Ex.: Solicitação de Material" required>
+          </div>
+          <div class="form-group">
+              <label for="tipoServico">Tipo de Serviço</label>
+              <input list="servicos" id="tipoServico" name="tipoServico" placeholder="Digite ou selecione..." required>
+              <datalist id="servicos">
+                  <option value="Electricista">
+                  <option value="Canalizador">
+                  <option value="Professor">
+                  <option value="Cozinheiro">
+              </datalist>
+          <div class="form-group">
+              <label for="dataPedido">Data Desejada</label>
+              <input type="date" id="dataPedido" name="dataPedido" required>
+          </div>
+          <div class="form-group">
+              <label for="descricaoPedido">Descrição do Pedido</label>
+              <textarea id="descricaoPedido" name="descricaoPedido" placeholder="Descreva os detalhes do pedido..." required></textarea>
+          </div>
+          <div class="form-group">
+              <button onclick="window.location.href='associacao.html';">Enviar Pedido</button>
+          </div>
+      </form>
+  </div>
+  <button id="returnButton" onclick="window.location.href='index.html';">Voltar</button>
+  </body>
+  </html>

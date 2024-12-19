@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+.historico-container {
+    max-width: 850px;
+    margin: -700px auto;
+    margin-left: 90px;
+    /*background: white;*/
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.historico-header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
+.historico-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.historico-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+.historico-table th, .historico-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+.historico-table th {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+.status-aceito {
+    color: white;
+    background-color: #28A745;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.status-rejeitado {
+    color: white;
+    background-color: #DC3545;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.status-pendente {
+    color: white;
+    background-color: #FFC107;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.observacao {
+    font-size: 14px;
+    color: #555;
+}
+.space-between {
+  height: 50px;
+  opacity: 50%;
+}
+.pedido-container {
+  max-width: 600px;
+  margin: 100px auto;
+  margin-right: 90px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.pedido-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pedido-header h1 {
+  margin: 0;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+.form-group input,
+.form-group textarea,
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+.form-group button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.form-group button:hover {
+  background-color: #45A049;
+}
